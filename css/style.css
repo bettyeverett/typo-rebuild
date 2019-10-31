@@ -303,6 +303,11 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px; }
+
 @font-face {
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -312,12 +317,26 @@ template {
 
 svg {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  padding: 20px;
+  fill: #083D77; }
+
+svg:hover {
+  fill: #F95738; }
+
+button {
+  background: none;
+  border: none; }
+
+.header {
+  display: flex;
+  justify-content: space-between; }
 
 .logo-container {
   display: flex;
   justify-content: center;
-  float: left; }
+  float: left;
+  margin-top: 60px; }
 
 .logo {
   width: 150px;
@@ -325,19 +344,22 @@ svg {
 
 .nav-bar {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding: 10px; }
 
 .nav-bar ul {
   list-style-type: none;
   overflow: hidden; }
 
 .nav-bar li {
-  float: left; }
+  float: left;
+  margin: 50px; }
 
 .nav-bar a {
   text-decoration-style: none;
   text-decoration: none;
-  color: #F95738; }
+  color: #083D77;
+  font-family: 'Nunito'; }
 
 li a {
   display: block;
