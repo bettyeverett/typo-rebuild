@@ -312,9 +312,6 @@ template {
 
 svg {
   width: 40px;
-<<<<<<< HEAD
-  height: 40px; }
-=======
   height: 40px;
   padding: 20px;
   fill: #083D77; }
@@ -325,17 +322,18 @@ svg:hover {
 button {
   background: none;
   border: none; }
->>>>>>> cb272e051d419d379dd0bd6bc5d560285bcaeb6e
 
 .footer-blocks {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  align-items: center;
+  grid-gap: 10px;
+  grid-auto-rows: 150px;
+  place-items: center;
   background-color: #083D77; }
 
 .about-link, .store-link, .faq-link {
-  align-items: center;
-  color: #F4D35E; }
+  color: #F4D35E;
+  text-decoration: none; }
 
 .about-link {
   grid-column: 1; }
