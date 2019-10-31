@@ -6,6 +6,7 @@
 .logo-container {
     display: flex;
     justify-content: center;
+    float: left;
 }
 
 .logo {
@@ -47,6 +48,15 @@ li a {
 
 //icons
 .search-button:hover {
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#site-search {
+    display: none;
 }
 //end icons
 
