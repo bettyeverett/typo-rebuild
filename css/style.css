@@ -312,4 +312,9 @@ template {
 
 svg {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  padding: 20px; }
+
+button {
+  background: none;
+  border: none; }
