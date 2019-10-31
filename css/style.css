@@ -313,7 +313,11 @@ template {
 svg {
   width: 40px;
   height: 40px;
-  padding: 20px; }
+  padding: 20px;
+  fill: #083D77; }
+
+svg:hover {
+  fill: #F95738; }
 
 button {
   background: none;
