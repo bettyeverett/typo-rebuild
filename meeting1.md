@@ -24,15 +24,16 @@
    7. ~~About - Kristin~~
    8. Product Range * 3 categories - Chris
    9. ~~FAQ can be chopped - Beth~~
-7.  Create SASS structure
-    1.  style.scss
-    2.  reset.scss
+7.  ~~Create SASS structure~~
+8.  Develop SASS
+    1.  ~~style.scss~~
+    2.  ~~reset.scss~~
     3.  base.scss
     4.  settings.scss
-    5.  typography.scss
-    6.  icons.scss
-    7.  header.scss
-    8.  footer.scss
+    5.  typography.scss - Chris
+    6.  icons.scss - Gareth
+    7.  header.scss - Kristin
+    8.  footer.scss - Beth
     9.  grid.scss
     10. forms.scss
     11. index.scss
