@@ -310,13 +310,16 @@ template {
   font-family: 'Montserrat', sans-serif;
   src: url("https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat|Nunito|Open+Sans&display=swap"); }
 
-.mainHeading, .sectionHeading {
+.mainHeading, h2, h3 {
   color: #083D77;
   font-family: "Lexend Deca", "arial", sans-serif;
   font-size: 5em; }
 
-.sectionHeading {
+h2 {
   font-size: 4.5em; }
+
+h3 {
+  font-size: 2.5em; }
 
 p, .subText, a {
   color: #083D77;
@@ -328,6 +331,14 @@ p, .subText, a {
 
 a {
   text-decoration: none; }
+
+a:hover {
+  color: #F95738;
+  text-decoration: underline; }
+
+a:visited {
+  color: #EE964B;
+  text-decoration: underline; }
 
 svg {
   width: 40px;
