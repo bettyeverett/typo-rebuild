@@ -17,12 +17,26 @@
    2. ~~HTML header - Beth - branch Header - DONE~~
    3. ~~HTML footer - Gareth - branch Footer - DONE~~
    4. ~~Font selection - Chris - Lexend Deca / Open Sans DONE~~
-5.  Setup GULP with yesterday's features - Gareth
-6.  HTML prior to SASS
-7.  Global SASS files that everybody contributes to
-8.  Pages:
-   5. Index.html - Gareth
-   6. Store Locater - Chris 
-   7. About - Kristin
-   8. Product Range * 3 categories -
-   9. FAQ can be chopped - Beth
+5.  ~~Setup GULP with yesterday's features - Gareth~~
+6.  Pages raw HTML:
+   5. ~~Index.html - Gareth~~
+   6. ~~Store Locater - Chris~~ 
+   7. ~~About - Kristin~~
+   8. Product Range * 3 categories - Chris
+   9. ~~FAQ can be chopped - Beth~~
+7.  Create SASS structure
+    1.  style.scss
+    2.  reset.scss
+    3.  base.scss
+    4.  settings.scss
+    5.  typography.scss
+    6.  icons.scss
+    7.  header.scss
+    8.  footer.scss
+    9.  grid.scss
+    10. forms.scss
+    11. index.scss
+    12. about.scss
+    13. faq.scss
+    14. stores.scss
+    15. products.scss
