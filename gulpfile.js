@@ -4,17 +4,21 @@ let rename = require('gulp-rename');
 let sass = require('gulp-sass');
 let concat = require('gulp-concat')
 let uglify = require('gulp-uglify-es').default;
-let refresh = require('gulp-refresh')
+let browserSync = require('browser-sync').create();
 
-// BROWSER REFRESH
-gulp.task('refresh', () => {
-    refresh();
+function reload(done) {
+  browserSync.reload();
+  done();
+}
+
+function serve(done) {
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
   });
-
-gulp.task('watch-refresh', () => {
-refresh.listen()
-return gulp.watch('./*.html', gulp.series('refresh'))
-})
+  done();
+}
 
 // SASS WATCH
 gulp.task('sass', function () {
@@ -34,15 +38,9 @@ gulp.task('minify-css', () => {
 });
 
 // COMBINE SASS AND MINIFY CSS (ALSO WATCHES FOR CHANGES TO UPDATE BROWSER)
-gulp.task('sass-minify', gulp.series('sass', 'minify-css', 'watch-refresh'));
-
-gulp.task('watch', () => {
-    return gulp.watch('./scss/**/*.scss', gulp.series('sass-minify'));
-});
-
+gulp.task('sass-minify', gulp.series('sass', 'minify-css'));
 
 // COMBINE AND MINIFY JS
-
 gulp.task('combine-js', () => {
     return gulp.src(['js/script.js'])
       .pipe(concat('combined.js'))
@@ -57,6 +55,7 @@ gulp.task('minify-js', () => {
 });
 
 gulp.task('js-combine-minify', gulp.series('combine-js', 'minify-js'));
-gulp.task('js-watch', () => {
-    return gulp.watch('./js/**/*.js', gulp.series('js-combine-minify'));
-});
+
+const watch = () => gulp.watch(['./scss/**/*.scss', 'js/script.js'], gulp.series('sass-minify', 'js-combine-minify', reload));
+
+gulp.task('default', gulp.series(serve, watch)); // just run "gulp" or "gulp default"

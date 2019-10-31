@@ -303,12 +303,34 @@ template {
 [hidden] {
   display: none; }
 
-body {
-  background-color: blue; }
-
 @font-face {
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Nunito', sans-serif;
   font-family: 'Montserrat', sans-serif;
   src: url("https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat|Nunito|Open+Sans&display=swap"); }
+
+
+.footer-blocks {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  align-items: center;
+  background-color: #083D77; }
+
+.about-link, .store-link, .faq-link {
+  align-items: center;
+  color: #F4D35E; }
+
+.about-link {
+  grid-column: 1; }
+
+.store-link {
+  grid-column: 2; }
+
+.faq-link {
+  grid-column: 3; }
+
+svg {
+  width: 40px;
+  height: 40px; }
+
