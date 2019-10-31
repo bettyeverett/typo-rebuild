@@ -1,0 +1,23 @@
+.footer-blocks {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    align-items: center;
+    background-color: $colorNavy;
+}
+
+.about-link, .store-link, .faq-link {
+    justify-content: center;
+    color: $colorYellow;
+}
+
+.about-link {
+    grid-column: 1;
+}
+
+.store-link {
+    grid-column: 2;
+}
+
+.faq-link {
+    grid-column: 3;
+}
