@@ -310,6 +310,9 @@ template {
   font-family: 'Montserrat', sans-serif;
   src: url("https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat|Nunito|Open+Sans&display=swap"); }
 
+svg {
+  width: 40px;
+  height: 40px; }
 
 .footer-blocks {
   display: grid;
@@ -329,8 +332,3 @@ template {
 
 .faq-link {
   grid-column: 3; }
-
-svg {
-  width: 40px;
-  height: 40px; }
-
