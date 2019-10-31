@@ -18,20 +18,20 @@ $fontSizeSmall: 1em;
     font-size: $fontSizeXL;
 }
 
-.bodyText {
+p {
     color: $colorNavy;
     font-family: $fontFamilyParagraphs;
     font-size: $fontSizeMedium;
 }
 
 .subText {
-    @extend .bodyText;
+    @extend p;
     font-size: $fontSizeSmall;
 }
 
 
-.links {
-    @extend .bodyText;
-    color: $colourMid;
+a {
+    @extend p;
+    text-decoration: none;
 }
 

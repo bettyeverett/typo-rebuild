@@ -310,6 +310,25 @@ template {
   font-family: 'Montserrat', sans-serif;
   src: url("https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat|Nunito|Open+Sans&display=swap"); }
 
+.mainHeading, .sectionHeading {
+  color: #083D77;
+  font-family: "Lexend Deca", "arial", sans-serif;
+  font-size: 5em; }
+
+.sectionHeading {
+  font-size: 4.5em; }
+
+p, .subText, a {
+  color: #083D77;
+  font-family: "Open Sans", "arial", sans-serif;
+  font-size: 1.5em; }
+
+.subText {
+  font-size: 1em; }
+
+a {
+  text-decoration: none; }
+
 svg {
   width: 40px;
   height: 40px; }
