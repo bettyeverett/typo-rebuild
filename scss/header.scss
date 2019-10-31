@@ -2,12 +2,54 @@
 
 }
 
-.nav-bar {
+//logo
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
 
+.logo {
+    width: 150px;
+    height: auto;
+}
+//end logo
+
+
+//nav bar
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;
 }
 
 .nav-bar a {
     text-decoration-style: none;
     text-decoration: none;
     color: $colorRed;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  //end nav bar
+
+
+//icons
+.search-button:hover {
+}
+//end icons
+
+.burger-menu {
+    display: none;
 }
