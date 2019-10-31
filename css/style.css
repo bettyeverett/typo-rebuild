@@ -313,7 +313,12 @@ template {
 .footer-blocks {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  align-items: center; }
+  align-items: center;
+  background-color: #083D77; }
+
+.about-link, .store-link, .faq-link {
+  align-items: center;
+  color: #F4D35E; }
 
 .about-link {
   grid-column: 1; }
