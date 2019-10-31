@@ -303,9 +303,6 @@ template {
 [hidden] {
   display: none; }
 
-body {
-  background-color: blue; }
-
 @font-face {
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Open Sans', sans-serif;
