@@ -331,4 +331,32 @@ a {
 
 svg {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  padding: 20px;
+  fill: #083D77; }
+
+svg:hover {
+  fill: #F95738; }
+
+button {
+  background: none;
+  border: none; }
+
+.footer-blocks {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  align-items: center;
+  background-color: #083D77; }
+
+.about-link, .store-link, .faq-link {
+  align-items: center;
+  color: #F4D35E; }
+
+.about-link {
+  grid-column: 1; }
+
+.store-link {
+  grid-column: 2; }
+
+.faq-link {
+  grid-column: 3; }
