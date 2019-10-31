@@ -13,9 +13,14 @@ $fontSizeSmall: 1em;
     font-size: $fontSizeXXL;
 }
 
-.sectionHeading {
+h2 {
     @extend .mainHeading;
     font-size: $fontSizeXL;
+}
+
+h3 {
+    @extend .mainHeading;
+    font-size: $fontSizeLarge;
 }
 
 p {
@@ -33,5 +38,15 @@ p {
 a {
     @extend p;
     text-decoration: none;
+}
+
+a:hover {
+    color: $colorRed;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: $colorOrange;
+    text-decoration: underline;
 }
 
