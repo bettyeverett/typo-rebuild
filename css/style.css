@@ -304,9 +304,9 @@ template {
   display: none; }
 
 body {
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 30px; }
+  box-shadow: 1px 1px 15px 3px lightgray; }
 
 @font-face {
   font-family: 'Lexend Deca', sans-serif;
@@ -397,7 +397,8 @@ li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 20px; }
 
 .icons-container {
   display: flex;
@@ -416,10 +417,11 @@ li a {
   grid-auto-rows: 150px;
   place-items: center;
   background-color: #083D77; }
-
-.about-link, .store-link, .faq-link {
-  color: #F4D35E;
-  text-decoration: none; }
+  .footer-blocks .link {
+    color: #F4D35E;
+    text-decoration: none; }
+  .footer-blocks .link:hover {
+    color: #F95738; }
 
 .about-link {
   grid-column: 1; }
@@ -429,6 +431,17 @@ li a {
 
 .faq-link {
   grid-column: 3; }
+
+@media (max-width: 650px) {
+  .footer-blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px; } }
+
+.social-icons {
+  text-align: center; }
 
 .main-grid {
   display: grid;
@@ -443,7 +456,7 @@ li a {
 
 .jumbotron img {
   width: 100%;
-  height: 400px; }
+  height: 100%; }
 
 @media (max-width: 800px) {
   .main-grid {
@@ -505,3 +518,41 @@ li a {
 .about-kristin {
   grid-column: 2 / 3;
   grid-row: 2 / 3; }
+
+.FAQ {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto; }
+
+.faq-icon {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 30px;
+  background: lightgray; }
+
+.faq-icon:hover {
+  filter: invert(1);
+  background: #083D77; }
+
+.faq-title {
+  text-align: center; }
+
+.store-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px auto;
+  column-gap: 10px;
+  row-gap: 10px; }
+
+main {
+  margin-bottom: 40px; }
+
+.store-address-box {
+  grid-column-start: 1; }
+
+.store-address-box h3 {
+  margin-top: 0; }
+
+.store-grid-box {
+  grid-column-start: 2; }
