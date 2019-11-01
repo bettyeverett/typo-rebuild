@@ -453,7 +453,8 @@ li a {
   height: 100%; }
 
 .jumbotron img {
-  width: 100%; }
+  width: 100%;
+  height: 600px; }
 
 @media (max-width: 800px) {
   .main-grid {
@@ -477,3 +478,22 @@ li a {
 
 .faq-title {
   text-align: center; }
+
+.store-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px auto;
+  column-gap: 10px;
+  row-gap: 10px; }
+
+main {
+  margin-bottom: 40px; }
+
+.store-address-box {
+  grid-column-start: 1; }
+
+.store-address-box h3 {
+  margin-top: 0; }
+
+.store-grid-box {
+  grid-column-start: 2; }
