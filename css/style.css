@@ -384,7 +384,8 @@ button {
 
 .nav-bar li {
   float: left;
-  margin: 50px; }
+  margin: 50px 0;
+  padding: 0 20px; }
 
 .nav-bar a {
   text-decoration-style: none;
@@ -410,6 +411,17 @@ li a {
 
 .burger-menu {
   display: none; }
+
+@media (max-width: 1000px) {
+  .burger-menu {
+    display: inline;
+    align-self: center; }
+  .nav-bar {
+    display: none; }
+  .icons-container {
+    display: none; }
+  .logo-container {
+    margin: auto 0; } }
 
 .footer-blocks {
   display: grid;
@@ -465,6 +477,13 @@ li a {
 
 .main-description {
   padding: 20px; }
+
+.main-description h3 {
+  font-size: 30px; }
+
+@media (max-width: 700px) {
+  .main-description h3 {
+    font-size: 18px; } }
 
 .about-image-colour {
   background: rgba(255, 60, 0, 0.82);
@@ -567,6 +586,39 @@ main {
 
 .store {
   padding: 20px; }
+
+.product-cards {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px 1fr 20px;
+  grid-template-rows: 20px 1fr 20px 1fr 20px; }
+
+.title {
+  text-align: center;
+  background-color: #EE964B;
+  color: #BBBDF6;
+  padding: 30px; }
+
+.product-card img {
+  max-width: 400px; }
+
+.product-card {
+  text-align: center; }
+
+.pencil-people {
+  grid-column: 2;
+  grid-row: 2; }
+
+.memo-tapes {
+  grid-column: 4;
+  grid-row: 2; }
+
+.unicorn-pushpins {
+  grid-column: 2;
+  grid-row: 4; }
+
+.stress-paul {
+  grid-column: 4;
+  grid-row: 4; }
 
 h2 {
   display: flex;

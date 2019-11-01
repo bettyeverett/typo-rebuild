@@ -1,0 +1,40 @@
+.product-cards {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px 1fr 20px;
+    grid-template-rows: 20px 1fr 20px 1fr 20px;
+}
+
+.title {
+    text-align: center;
+    background-color: $colorOrange;
+    color: $colorPurple;
+    padding: 30px;
+}
+
+.product-card img {
+    max-width: 400px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.pencil-people {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.memo-tapes {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.unicorn-pushpins {
+    grid-column: 2;
+    grid-row: 4;
+} 
+
+.stress-paul {
+    grid-column: 4;
+    grid-row: 4;
+}

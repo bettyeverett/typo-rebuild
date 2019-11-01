@@ -33,7 +33,8 @@
 
 .nav-bar li {
     float: left;
-    margin: 50px;
+    margin: 50px 0;
+    padding: 0 20px;
 }
 
 .nav-bar a {
@@ -72,4 +73,20 @@ li a {
 
 .burger-menu {
     display: none;
+}
+
+@media (max-width: 1000px) {
+    .burger-menu {
+        display: inline;
+        align-self: center;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .icons-container {
+        display: none;
+    }
+    .logo-container {
+        margin: auto 0;
+    }
 }
