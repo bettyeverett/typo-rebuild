@@ -1,0 +1,52 @@
+$fontFamilyHeadings: "Lexend Deca", "arial", sans-serif;
+$fontFamilyParagraphs: "Open Sans", "arial", sans-serif;
+
+$fontSizeXXL: 5em;
+$fontSizeXL: 4.5em;
+$fontSizeLarge: 2.5em;
+$fontSizeMedium: 1.5em;
+$fontSizeSmall: 1em;
+
+.mainHeading {
+    color: $colorNavy;
+    font-family: $fontFamilyHeadings;
+    font-size: $fontSizeXXL;
+}
+
+h2 {
+    @extend .mainHeading;
+    font-size: $fontSizeXL;
+}
+
+h3 {
+    @extend .mainHeading;
+    font-size: $fontSizeLarge;
+}
+
+p {
+    color: $colorNavy;
+    font-family: $fontFamilyParagraphs;
+    font-size: $fontSizeMedium;
+}
+
+.subText {
+    @extend p;
+    font-size: $fontSizeSmall;
+}
+
+
+a {
+    @extend p;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $colorRed;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: $colorOrange;
+    text-decoration: underline;
+}
+
