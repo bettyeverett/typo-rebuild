@@ -303,6 +303,11 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px; }
+
 @font-face {
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -323,15 +328,66 @@ button {
   background: none;
   border: none; }
 
+.header {
+  display: flex;
+  justify-content: space-between; }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin-top: 60px; }
+
+.logo {
+  width: 150px;
+  height: auto; }
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.nav-bar ul {
+  list-style-type: none;
+  overflow: hidden; }
+
+.nav-bar li {
+  float: left;
+  margin: 50px; }
+
+.nav-bar a {
+  text-decoration-style: none;
+  text-decoration: none;
+  color: #083D77;
+  font-family: 'Nunito'; }
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.icons-container {
+  display: flex;
+  justify-content: flex-end; }
+
+#site-search {
+  display: none; }
+
+.burger-menu {
+  display: none; }
+
 .footer-blocks {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  align-items: center;
+  grid-gap: 10px;
+  grid-auto-rows: 150px;
+  place-items: center;
   background-color: #083D77; }
 
 .about-link, .store-link, .faq-link {
-  align-items: center;
-  color: #F4D35E; }
+  color: #F4D35E;
+  text-decoration: none; }
 
 .about-link {
   grid-column: 1; }
