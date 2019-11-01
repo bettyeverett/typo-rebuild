@@ -462,6 +462,9 @@ li a {
   .main-grid {
     display: block; } }
 
+.main-description {
+  padding: 20px; }
+
 .about-image-colour {
   background: rgba(255, 60, 0, 0.82);
   overflow: hidden;
@@ -556,3 +559,6 @@ main {
 
 .store-grid-box {
   grid-column-start: 2; }
+
+.store {
+  padding: 20px; }
