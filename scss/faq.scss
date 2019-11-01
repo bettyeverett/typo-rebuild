@@ -1,0 +1,22 @@
+.FAQ {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+}
+
+.faq-icon {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 30px;
+    background: lightgray;
+}
+
+.faq-icon:hover {
+    filter: invert(1);
+    background: $colorNavy;
+}
+
+.faq-title {
+    text-align: center;
+}
