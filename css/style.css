@@ -388,8 +388,10 @@ button {
 .nav-bar a {
   text-decoration-style: none;
   text-decoration: none;
-  color: #083D77;
-  font-family: 'Nunito'; }
+  color: #083D77; }
+
+.nav-bar a:hover {
+  color: #F95738; }
 
 li a {
   display: block;
@@ -459,6 +461,63 @@ li a {
 @media (max-width: 800px) {
   .main-grid {
     display: block; } }
+
+.about-image-colour {
+  background: rgba(255, 60, 0, 0.82);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
+
+.about-image img {
+  width: auto;
+  height: 500px; }
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  background: #f2f2f2;
+  padding: 40px 0px 0px 0px; }
+
+.our-story {
+  padding: 10px;
+  margin: 10px; }
+
+.our-story h2 {
+  text-align: center; }
+
+.team-info {
+  display: block;
+  text-align: center; }
+
+.meet-the-team img {
+  height: 250px;
+  width: 250px; }
+
+.meet-the-team p:hover, .meet-the-team .subText:hover, .meet-the-team a:hover {
+  color: #F95738; }
+
+.meet-the-team {
+  display: grid;
+  grid-template-rows: 400px 400px;
+  grid-template-columns: repeat(50px 50px);
+  grid-gap: 20px;
+  margin-bottom: 20px; }
+
+.about-chris {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; }
+
+.about-gareth {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+
+.about-beth {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3; }
+
+.about-kristin {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; }
 
 .FAQ {
   display: grid;

@@ -39,7 +39,10 @@
     text-decoration-style: none;
     text-decoration: none;
     color: $colorNavy;
-    font-family: 'Nunito';
+}
+
+.nav-bar a:hover {
+    color: $colorRed;
 }
 
 li a {
