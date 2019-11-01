@@ -370,7 +370,8 @@ button {
 
 .logo {
   width: 150px;
-  height: auto; }
+  height: auto;
+  padding-left: 50px; }
 
 .nav-bar {
   display: flex;
@@ -394,9 +395,9 @@ button {
   color: #F95738; }
 
 li a {
-  display: block;
+  display: inline;
   text-align: center;
-  padding: 14px 16px;
+  align-self: center;
   text-decoration: none;
   font-size: 20px; }
 
@@ -461,6 +462,9 @@ li a {
 @media (max-width: 800px) {
   .main-grid {
     display: block; } }
+
+.main-description {
+  padding: 20px; }
 
 .about-image-colour {
   background: rgba(255, 60, 0, 0.82);
@@ -559,3 +563,6 @@ main {
 
 .store-grid-box {
   grid-column-start: 2; }
+
+.store {
+  padding: 20px; }
