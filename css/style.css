@@ -399,13 +399,11 @@ li a {
   grid-column: 3; }
 
 .main-grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px auto; }
-
-.grid-box {
-  width: 50%;
-  justify-content: space-between; }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px auto;
+  column-gap: 10px;
+  row-gap: 10px; }
 
 .grid-box img {
   width: 100%;
@@ -413,3 +411,7 @@ li a {
 
 .jumbotron img {
   width: 100%; }
+
+@media (max-width: 800px) {
+  .main-grid {
+    display: block; } }

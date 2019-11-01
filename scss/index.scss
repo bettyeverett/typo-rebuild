@@ -1,12 +1,10 @@
 .main-grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px auto;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px auto;
+    column-gap: 10px;
+    row-gap: 10px;
 
-.grid-box {
-    width: 50%;
-    justify-content: space-between;
 }
 
 .grid-box img {
@@ -16,4 +14,10 @@
 
 .jumbotron img {
     width: 100%;
+}
+
+@media (max-width: 800px) {
+    .main-grid {
+        display: block;
+    }
 }
