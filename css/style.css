@@ -470,13 +470,13 @@ li a {
 
 .about-image img {
   width: auto;
-  height: 500px; }
+  height: 550px; }
 
 .about-image {
   display: flex;
   justify-content: center;
   background: #f2f2f2;
-  padding: 40px 0px 0px 0px; }
+  padding: 10px 0px 0px 0px; }
 
 .our-story {
   padding: 10px;
@@ -492,6 +492,9 @@ li a {
 .meet-the-team img {
   height: 250px;
   width: 250px; }
+
+.team-name {
+  font-weight: bolder; }
 
 .meet-the-team p:hover, .meet-the-team .subText:hover, .meet-the-team a:hover {
   color: #F95738; }
