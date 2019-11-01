@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+//logo
+.logo-container {
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: 60px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+//end logo
+
+
+//nav bar
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;
+    margin: 50px;
+}
+
+.nav-bar a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color: $colorNavy;
+    font-family: 'Nunito';
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  //end nav bar
+
+
+//icons
+.search-button:hover {
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#site-search {
+    display: none;
+}
+//end icons
+
+.burger-menu {
+    display: none;
+}
