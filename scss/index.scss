@@ -26,3 +26,13 @@
 .main-description {
     padding: 20px
 }
+
+.main-description h3 {
+    font-size: 30px;
+}
+
+@media (max-width: 700px){
+    .main-description h3 {
+        font-size: 18px;
+    }
+}
