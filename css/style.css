@@ -536,7 +536,8 @@ li a {
   height: 50%;
   margin: auto;
   padding: 30px;
-  background: lightgray; }
+  background: lightgray;
+  box-shadow: 1px 1px 10px 1px lightgray; }
 
 .faq-icon:hover {
   filter: invert(1);
