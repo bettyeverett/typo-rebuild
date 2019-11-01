@@ -1,0 +1,79 @@
+
+// Jumbotron image
+.about-image-colour {
+    background: rgba(255, 60, 0, 0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+.about-image img {
+    width: auto;
+    height: 550px;
+}
+.about-image {
+    display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+    padding: 10px 0px 0px 0px;
+}
+// end Jumbotron image
+
+// Our Story section
+.our-story {
+    padding: 10px;
+    margin: 10px;
+}
+
+.our-story h2 {
+    text-align: center;
+}
+// end Our Story section
+
+// Meet the Team section
+.team-info {
+    display: block;
+    text-align: center;
+}
+
+.meet-the-team img {
+    height: 250px;
+    width: 250px;
+}
+
+.team-name {
+    font-weight: bolder;
+}
+
+.meet-the-team p:hover {
+    color: $colorRed;
+}
+
+.meet-the-team {
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: repeat(50px 50px);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.about-chris {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.about-gareth {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.about-beth {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.about-kristin {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+// end Meet the Team section
