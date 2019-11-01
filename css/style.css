@@ -370,7 +370,8 @@ button {
 
 .logo {
   width: 150px;
-  height: auto; }
+  height: auto;
+  padding-left: 50px; }
 
 .nav-bar {
   display: flex;
@@ -394,9 +395,9 @@ button {
   color: #F95738; }
 
 li a {
-  display: block;
+  display: inline;
   text-align: center;
-  padding: 14px 16px;
+  align-self: center;
   text-decoration: none;
   font-size: 20px; }
 
