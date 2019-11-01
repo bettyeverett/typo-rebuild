@@ -31,13 +31,14 @@
     3.  base.scss
     4.  settings.scss
     5.  typography.scss - Chris
-    6.  icons.scss - Gareth
+    6.  ~~icons.scss - Gareth~~
     7.  header.scss - Kristin
     8.  footer.scss - Beth
     9.  grid.scss
     10. forms.scss
-    11. index.scss
+    11. index.scss - Gareth
     12. about.scss
     13. faq.scss
     14. stores.scss
     15. products.scss
+    16. add header and footer html/css to other pages - Kristin/Beth
