@@ -343,3 +343,11 @@ button {
 
 .faq-link {
   grid-column: 3; }
+
+.main-grid {
+  display: flex;
+  flex-wrap: wrap; }
+
+.grid-box {
+  width: 48%;
+  border: 2px solid #083D77; }
