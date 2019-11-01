@@ -312,9 +312,6 @@ template {
 
 svg {
   width: 40px;
-<<<<<<< HEAD
-  height: 40px; }
-=======
   height: 40px;
   padding: 20px;
   fill: #083D77; }
@@ -325,7 +322,6 @@ svg:hover {
 button {
   background: none;
   border: none; }
->>>>>>> cb272e051d419d379dd0bd6bc5d560285bcaeb6e
 
 .footer-blocks {
   display: grid;
