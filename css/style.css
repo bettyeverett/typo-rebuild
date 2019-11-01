@@ -304,9 +304,9 @@ template {
   display: none; }
 
 body {
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 30px; }
+  box-shadow: 1px 1px 10px 1px lightgray; }
 
 @font-face {
   font-family: 'Lexend Deca', sans-serif;
@@ -395,7 +395,8 @@ li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 20px; }
 
 .icons-container {
   display: flex;
@@ -446,3 +447,22 @@ li a {
 @media (max-width: 800px) {
   .main-grid {
     display: block; } }
+
+.FAQ {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto; }
+
+.faq-icon {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  padding: 30px;
+  background: lightgray; }
+
+.faq-icon:hover {
+  filter: invert(1);
+  background: #083D77; }
+
+.faq-title {
+  text-align: center; }
