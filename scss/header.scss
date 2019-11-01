@@ -41,6 +41,10 @@
     color: $colorNavy;
 }
 
+.nav-bar a:hover {
+    color: $colorRed;
+}
+
 li a {
     display: block;
     text-align: center;

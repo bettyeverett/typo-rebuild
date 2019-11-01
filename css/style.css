@@ -390,6 +390,9 @@ button {
   text-decoration: none;
   color: #083D77; }
 
+.nav-bar a:hover {
+  color: #F95738; }
+
 li a {
   display: block;
   text-align: center;
@@ -466,6 +469,39 @@ li a {
   padding: 10px;
   margin: 10px; }
 
+.our-story h2 {
+  text-align: center; }
+
+.team-info {
+  display: block;
+  text-align: center; }
+
 .meet-the-team img {
   height: 250px;
   width: 250px; }
+
+.meet-the-team p:hover, .meet-the-team .subText:hover, .meet-the-team a:hover {
+  color: #F95738; }
+
+.meet-the-team {
+  display: grid;
+  grid-template-rows: 400px 400px;
+  grid-template-columns: repeat(50px 50px);
+  grid-gap: 20px;
+  margin-bottom: 20px; }
+
+.about-chris {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; }
+
+.about-gareth {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+
+.about-beth {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3; }
+
+.about-kristin {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; }
