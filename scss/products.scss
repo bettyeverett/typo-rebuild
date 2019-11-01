@@ -4,6 +4,13 @@
     grid-template-rows: 20px 1fr 20px 1fr 20px;
 }
 
+.title {
+    text-align: center;
+    background-color: $colorOrange;
+    color: $colorPurple;
+    padding: 30px;
+}
+
 .product-card img {
     max-width: 400px;
 }
